@@ -273,7 +273,7 @@
             background-color: #e4bf1e;
             padding: 5vw;
             width: 50vw;
-            min-width: 300px;
+            min-width: 240px;
             min-height: 45px;
             height: 8vw;
             margin: auto;
@@ -339,7 +339,7 @@
             bottom: 3.6vw;
         }
         .p2{
-            direction: ltr
+            direction: ltr;
         }
         .flipped {
             direction: rtl;
