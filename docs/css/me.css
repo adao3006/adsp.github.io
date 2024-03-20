@@ -197,6 +197,8 @@
             transition: 0.25s;
             
           }
+
+@media only screen and (min-width:600px){
 		 /* Style for the circular button */
 		 .circle-button-1 {
 			position: relative;
@@ -249,6 +251,115 @@
             z-index: 0;
             
 		}
+        .button-cluster a.circle-button-1:hover {
+            width: 27vw;
+            height: 27vw;
+            
+            border: 4vw solid;
+            border-color: #17C4B8;
+            
+        }
+        .button-cluster a.circle-button-2:hover {
+            width: 42vw;
+            height: 42vw;
+            
+            border: 5vw solid;
+            border-color: #17C4B8;
+            
+        }
+        .button-cluster a.circle-button-3:hover {
+            width: 17vw;
+            height: 17vw;
+            
+            border: 3vw solid;
+            border-color: #17C4B8;
+        
+        }
+        .button-cluster a:hover{
+            z-index: 999;
+        }
+    }
+    @media only screen and (max-width:600px){
+        /* Style for the circular button */
+        .circle-button-1 {
+           position: relative;
+           display: inline-block;
+           width: 35vw;
+           height: 35vw;
+           background-image: url(images/barbie.png);
+           background-repeat: no-repeat;
+           background-size: 100% 100%;
+           border-radius: 50%;
+           border: 2vw solid;
+           border-color: #e4bf1e;
+           color: white;
+           position: relative; top: 6vw; left: 5vw;
+           transition: 0.5s;
+           
+       }
+       .circle-button-2 {
+           display: inline-block;
+           width: 50vw;
+           height: 50vw;
+           background-repeat: no-repeat;
+           background-size: 100% 100%;
+           border-radius: 50%;
+           border: 3vw solid;
+           border-color: #e4bf1e;
+           color: rgb(0, 0, 0);
+           position: relative; bottom: 18vw;
+           transition: 0.5s;
+           
+       }
+       .circle-button-3 {
+           display: inline-block;
+           width: 25vw;
+           height: 25vw;
+           background-image: url(images/barbie.png);
+           background-repeat: no-repeat;
+           background-size: 100% 100%;
+           border-radius: 50%;
+           border: 1vw solid;
+           border-color: #e4bf1e;
+           vertical-align: 37vw;
+           position: relative; right:7vw; bottom: 2vw;
+           transition: 0.5s;
+           
+       }
+       .button-cluster {
+           text-align: center;
+           position: relative;
+           z-index: 0;
+           
+       }
+       .button-cluster a.circle-button-1:active {
+           width: 37vw;
+           height: 37vw;
+           
+           border: 4vw solid;
+           border-color: #17C4B8;
+           
+       }
+       .button-cluster a.circle-button-2:active {
+           width: 52vw;
+           height: 52vw;
+           
+           border: 5vw solid;
+           border-color: #17C4B8;
+           
+       }
+       .button-cluster a.circle-button-3:active {
+           width: 27vw;
+           height: 27vw;
+           
+           border: 3vw solid;
+           border-color: #17C4B8;
+       
+       }
+       .button-cluster a:hactive{
+           z-index: 999;
+       }
+   }
 @media only screen and (min-width: 600px){
         h1 {
             font-family: 'Franklin Gothic Heavy', "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
@@ -305,33 +416,7 @@
         }
     }
         
-        .button-cluster a.circle-button-1:hover {
-            width: 27vw;
-            height: 27vw;
-            
-            border: 4vw solid;
-            border-color: #17C4B8;
-            
-        }
-        .button-cluster a.circle-button-2:hover {
-            width: 42vw;
-            height: 42vw;
-            
-            border: 5vw solid;
-            border-color: #17C4B8;
-            
-        }
-        .button-cluster a.circle-button-3:hover {
-            width: 17vw;
-            height: 17vw;
-            
-            border: 3vw solid;
-            border-color: #17C4B8;
         
-        }
-        .button-cluster a:hover{
-            z-index: 999;
-        }
         .bottomnav {           
             height: fit-content;
             background-color: #e4bf1e;
