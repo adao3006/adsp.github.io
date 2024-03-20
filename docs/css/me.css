@@ -1,16 +1,17 @@
+@font-face {
+    font-family: 'Frankin Gothic Regular', "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+    src: url(fonts/FRABK.ttf) format('truetype');
+    font-family: 'Frankin Gothic Medium', "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+    src: url(fonts/framd.ttf) format('truetype');
+    font-family: 'Franklin Gothic Heavy', "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+    src: url(fonts/FRAHV.ttf) format('truetype');
+    font-family: 'Franklin Gothic Demi', "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+    src: url(fonts/FRADM.ttf) format('truetype');
+}
        html{
             scroll-behavior: smooth;
         }
-@font-face {
-    font-family: 'Frankin Gothic Regular';
-    src: url(fonts/FRABK.ttf) format('truetype');
-    font-family: 'Frankin Gothic Medium';
-    src: url(fonts/framd.ttf) format('truetype');
-    font-family: 'Franklin Gothic Heavy';
-    src: url(fonts/FRAHV.ttf) format('truetype');
-    font-family: 'Franklin Gothic Demi';
-    src: url(fonts/FRADM.ttf) format('truetype');
-}
+
 
         body{
             background-color: #1b0d46;
@@ -43,7 +44,7 @@
             padding:  20px 80px;
             text-decoration: none;
             font-size: 30px;
-			font-family: 'Franklin Gothic Medium';
+			font-family: 'Franklin Gothic Medium', "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
            overflow: hidden;
         }
     
@@ -55,7 +56,7 @@
             padding:  20px 80px;
             text-decoration: none;
             font-size: 30px;
-			font-family: 'Franklin Gothic Medium';
+			font-family: 'Franklin Gothic Medium', "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
            overflow: hidden;
         }
     }
@@ -72,7 +73,7 @@
         padding:  6px 66px;
         text-decoration: none;
         font-size: 16px;
-        font-family: 'Franklin Gothic Demi';
+        font-family: 'Franklin Gothic Medium', "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
        overflow: hidden;
     }
 
@@ -84,7 +85,7 @@
         padding:  6px 66px;
         text-decoration: none;
         font-size: 16px;
-        font-family: 'Franklin Gothic Medium';
+        font-family: 'Franklin Gothic Medium', "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
        overflow: hidden;
     }
 }
@@ -108,7 +109,7 @@
             position: relative;
             padding: 20px 80px;
             background-color: inherit;
-            font-family: 'Franklin Gothic Medium';
+            font-family: 'Franklin Gothic Medium', "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
             
           }
     
@@ -122,7 +123,7 @@
         position: relative;
         padding: 6px 66px;
         background-color: inherit;
-        font-family: 'Franklin Gothic Demi';
+        font-family: 'Franklin Gothic Medium', "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
         
       }
     }
@@ -174,7 +175,7 @@
             padding: 10px 16px;
             list-style: none;
             margin: auto;
-            font-family: 'Franklin Gothic Medium';
+            font-family: 'Franklin Gothic Medium', "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
           }
           ul.breadcrumb li {
             display: inline;
@@ -250,7 +251,7 @@
 		}
 @media only screen and (min-width: 600px){
         h1 {
-            font-family: 'Franklin Gothic Heavy';
+            font-family: 'Franklin Gothic Heavy', "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
             font-size: 50px;
             text-align: center;
             line-height: 50px;
@@ -258,7 +259,7 @@
     }
     @media only screen and (max-width: 600px){
         h1 {
-            font-family: 'Franklin Gothic Heavy';
+            font-family: 'Franklin Gothic Heavy', "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
             font-size: 36px;
             text-align: center;
             line-height: 36px;
@@ -281,7 +282,7 @@
             resize: none;
             background-color: transparent;
             border: transparent;
-            font-family: 'Franklin Gothic Regular';
+            font-family: 'Franklin Gothic Regular', "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
             font-size: 20px;
             overflow: hidden;
             line-height: 30px;
@@ -297,7 +298,7 @@
             resize: none;
             background-color: transparent;
             border: transparent;
-            font-family: 'Franklin Gothic Regular';
+            font-family: 'Franklin Gothic Regular', "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
             font-size: 1rem;
             overflow: hidden;
             line-height: 1.5rem;
@@ -359,7 +360,7 @@
             font-size: 25px;
             text-align: center;
             display: inline;
-            font-family: 'Franklin Gothic Medium';
+            font-family: 'Franklin Gothic Medium', "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
             text-decoration: solid underline;
             margin-left: 60px;
             margin-right: 60px;
@@ -385,7 +386,7 @@
         font-size: 1rem;
         text-align: center;
         display: block;
-        font-family: 'Franklin Gothic Demi';
+        font-family: 'Franklin Gothic Medium', "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
         text-decoration: solid underline;
     }
 }
@@ -435,7 +436,7 @@
             bottom:1vw;
             float: left;
             overflow-y: auto;
-            font-family: 'Franklin Gothic Medium';
+            font-family: 'Franklin Gothic Medium', "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
             transition: 0.5s;
             
         }
@@ -449,11 +450,12 @@
             width:  20vw;
             height: 20vw;
         }
+        #rcorners:hover{
+            width: 55vw;
+            height: 13vw;
+        }
     }
-    #rcorners:hover{
-        width: 55vw;
-        height: 13vw;
-    }
+   
     @media only screen and (max-width:600px){
         #rcorners p {
             display: block;
@@ -467,7 +469,7 @@
             bottom:1vw;
             float: left;
             overflow-y: auto;
-            font-family: 'Franklin Gothic Demi';
+            font-family: 'Franklin Gothic Medium', "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
             transition: 0.5s;
             
         }
