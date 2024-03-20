@@ -8,6 +8,8 @@
     src: url(fonts/framd.ttf) format('truetype');
     font-family: 'Franklin Gothic Heavy';
     src: url(fonts/FRAHV.ttf) format('truetype');
+    font-family: 'Franklin Gothic Demi';
+    src: url(fonts/FRADM.ttf) format('truetype');
 }
 
         body{
@@ -70,7 +72,7 @@
         padding:  6px 66px;
         text-decoration: none;
         font-size: 16px;
-        font-family: 'Franklin Gothic Medium';
+        font-family: 'Franklin Gothic Demi';
        overflow: hidden;
     }
 
@@ -120,7 +122,7 @@
         position: relative;
         padding: 6px 66px;
         background-color: inherit;
-        font-family: 'Franklin Gothic Medium';
+        font-family: 'Franklin Gothic Demi';
         
       }
     }
@@ -379,11 +381,11 @@
     }
     .bottomnav a{
         color:#1b0d46;
-        line-height: 100%;
+        line-height: 250%;
         font-size: 1rem;
         text-align: center;
         display: block;
-        font-family: 'Franklin Gothic Medium';
+        font-family: 'Franklin Gothic Demi';
         text-decoration: solid underline;
     }
 }
@@ -465,7 +467,7 @@
             bottom:1vw;
             float: left;
             overflow-y: auto;
-            font-family: 'Franklin Gothic Medium';
+            font-family: 'Franklin Gothic Demi';
             transition: 0.5s;
             
         }
