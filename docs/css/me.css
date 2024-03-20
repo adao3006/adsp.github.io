@@ -44,6 +44,7 @@
             padding:  20px 80px;
             text-decoration: none;
             font-size: 30px;
+            font-weight: bold;
 			font-family: 'Franklin Gothic Medium', "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
            overflow: hidden;
         }
@@ -290,7 +291,7 @@
            background-repeat: no-repeat;
            background-size: 100% 100%;
            border-radius: 50%;
-           border: 12vw solid;
+           border: 3vw solid;
            border-color: #e4bf1e;
            color: white;
            position: relative; top: 6vw; left: 5vw;
@@ -304,7 +305,7 @@
            background-repeat: no-repeat;
            background-size: 100% 100%;
            border-radius: 50%;
-           border: 13vw solid;
+           border: 4vw solid;
            border-color: #e4bf1e;
            color: rgb(0, 0, 0);
            position: relative; bottom: 18vw;
@@ -319,7 +320,7 @@
            background-repeat: no-repeat;
            background-size: 100% 100%;
            border-radius: 50%;
-           border: 11vw solid;
+           border: 2vw solid;
            border-color: #e4bf1e;
            vertical-align: 37vw;
            position: relative; right:7vw; bottom: 2vw;
@@ -336,7 +337,7 @@
            width: 37vw;
            height: 37vw;
            
-           border: 9vw solid;
+           border: 3vw solid;
            border-color: #17C4B8;
            
        }
@@ -344,7 +345,7 @@
            width: 52vw;
            height: 52vw;
            
-           border: 10vw solid;
+           border: 5vw solid;
            border-color: #17C4B8;
            
        }
@@ -352,7 +353,7 @@
            width: 27vw;
            height: 27vw;
            
-           border: 8vw solid;
+           border: 4vw solid;
            border-color: #17C4B8;
        
        }
@@ -550,7 +551,7 @@
             height: 10vw;
             min-width: 160px;
             min-height: 55px;
-            font-size: 12px;
+            font-size: 10px;
             font-weight: bold;
             position: relative;
             bottom:1vw;
