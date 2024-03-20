@@ -1,6 +1,15 @@
        html{
             scroll-behavior: smooth;
         }
+@font-face {
+    font-family: 'Frankin Gothic Regular';
+    src: url(fonts/FRABK.ttf);
+    font-family: 'Frankin Gothic Medium';
+    src: url(fonts/framd.ttf);
+    font-family: 'Franklin Gothic Heavy';
+    src: url(fonts/FRAHV.ttf);
+}
+
         body{
             background-color: #1b0d46;
             margin: 0;
@@ -284,9 +293,9 @@
             background-color: transparent;
             border: transparent;
             font-family: 'Franklin Gothic Regular';
-            font-size: 16px;
+            font-size: 1rem;
             overflow: hidden;
-            line-height: 26px;
+            line-height: 1.5rem;
         }
     }
         
@@ -363,7 +372,7 @@
     .bottomnav a{
         color:#1b0d46;
         line-height: 100%;
-        font-size: 16px;
+        font-size: 1rem;
         text-align: center;
         display: block;
         font-family: 'Franklin Gothic Medium';
@@ -442,7 +451,7 @@
             height: 10vw;
             min-width: 160px;
             min-height: 55px;
-            font-size: 16px;
+            font-size: 10px;
             position: relative;
             bottom:1vw;
             float: left;
