@@ -1,57 +1,30 @@
-/* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
-function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
+// Functions for Interactive File Menu Bar 
+// - Click Butoon to Open Dropdown
+// - Clicking one dropdown closes all other
+// - Clicking outside the file menu bar will close all the dropdown.
+
+function open_dropdown(element_id) {
+    close_all_dropdowns()
+    document.getElementById(element_id).style.display = 'block';
   }
   
-  // Close the dropdown menu if the user clicks outside of it
-  window.onclick = function(event) {
-    if (!event.target.matches('.dropbtn')) {
-      var dropdowns = document.getElementsByClassName("dropdown-content");
-      var i;
-      for (i = 0; i < dropdowns.length; i++) {
-        var openDropdown = dropdowns[i];
-        if (openDropdown.classList.contains('show')) {
-          openDropdown.classList.remove('show');
-        }
-      }
+  // Close the dropdown if the user clicks outside of it
+  function close_dropdown(element) {
+    
+    element.style.display = 'none'
+  }
+  
+  // Close all dropdowns.
+  function close_all_dropdowns() {
+    var dropdowns = document.getElementsByClassName('dropdown-content')
+    for (var i = 0; i < dropdowns.length; i++) {
+      close_dropdown(dropdowns[i]);
     }
   }
-  /* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
-function myFunction2() {
-    document.getElementById("myDropdown-2").classList.toggle("show");
-  }
   
-  // Close the dropdown menu if the user clicks outside of it
-  window.onclick = function(event) {
-    if (!event.target.matches('.dropbtn')) {
-      var dropdowns = document.getElementsByClassName("dropdown-content");
-      var i;
-      for (i = 0; i < dropdowns.length; i++) {
-        var openDropdown = dropdowns[i];
-        if (openDropdown.classList.contains('show')) {
-          openDropdown.classList.remove('show');
-        }
-      }
-    }
-  }
-  /* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
-function myFunction3() {
-    document.getElementById("myDropdown-3").classList.toggle("show");
-  }
-  
-  // Close the dropdown menu if the user clicks outside of it
-  window.onclick = function(event) {
-    if (!event.target.matches('.dropbtn')) {
-      var dropdowns = document.getElementsByClassName("dropdown-content");
-      var i;
-      for (i = 0; i < dropdowns.length; i++) {
-        var openDropdown = dropdowns[i];
-        if (openDropdown.classList.contains('show')) {
-          openDropdown.classList.remove('show');
-        }
-      }
+  // Close all dropdowns when clicking outside.
+  window.onclick = function (e) {
+    if (!e.target.matches('.dropbtn')) {
+      close_all_dropdowns()
     }
   }

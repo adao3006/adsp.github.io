@@ -109,6 +109,7 @@
             font-family: 'Franklin Gothic Medium';
             
           }
+    
         }
 @media only screen and (max-width: 600px){
     .dropdown .dropbtn {
@@ -126,6 +127,8 @@
           .topnav button, .dropdown:hover .dropbtn {
             background-color: #ddd;
           }
+        
+          
           
       
           .dropdown-content {
@@ -248,7 +251,7 @@
             font-family: 'Franklin Gothic Heavy';
             font-size: 50px;
             text-align: center;
-            line-height: 60px;
+            line-height: 50px;
         }
     }
     @media only screen and (max-width: 600px){
@@ -256,7 +259,7 @@
             font-family: 'Franklin Gothic Heavy';
             font-size: 36px;
             text-align: center;
-            line-height: 46px;
+            line-height: 36px;
         }
     }
         .rectangle{
@@ -351,14 +354,21 @@
         .bottomnav a{
             color:#1b0d46;
             line-height: 100%;
-            font-size: 20px;
+            font-size: 25px;
             text-align: center;
-            display: block;
+            display: inline;
             font-family: 'Franklin Gothic Medium';
             text-decoration: solid underline;
-            
-            
+            margin-left: 60px;
+            margin-right: 60px;
+            justify-content: center;
         }
+}
+@media only screen and (min-width: 634px){
+    #botnav{
+        position: relative;
+        right: 10px;
+    }
 }
 @media only screen and (max-width: 600px){
     .bottomnav h1{
@@ -366,8 +376,6 @@
         display: block;
         font-size: 21px;
         line-height: 100%;
-       
-    
     }
     .bottomnav a{
         color:#1b0d46;

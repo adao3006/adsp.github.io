@@ -19,16 +19,16 @@
 		<div style="text-align: center;">
 		<a href="index.html">Home</a>
 		<span class="dropdown">
-        <a class="dropbtn" href="vehicles.html">Vehicles&#x25BC</a>
-			<div class="dropdown-content">
+			<button onclick="open_dropdown('myDropdown')" class="dropbtn">Vehicles&#x25BC</button>
+			<div id="myDropdown" class="dropdown-content">
 				<a href="ship.html">How to make a Ship</a>
 				<a href="car.html">How to make a Car</a>
 				<a href="plane.html"> How to make a Plane</a>
 			</div>
 		</span>
 		<span class="dropdown">
-			<a class="dropbtn" href="animals.html">Animals&#x25BC</a>
-				<div class="dropdown-content">
+			<button onclick="open_dropdown('myDropdown-2')" class="dropbtn">Animals&#x25BC</button>
+				<div id="myDropdown-2" class="dropdown-content">
 					
 					<a href="crane.html">How to make a Crane</a>
 					<a href="frog.html">How to make a Frog</a>
@@ -36,13 +36,37 @@
 				</div>
 			</span>
 			<span class="dropdown">
-				<a class="dropbtn" href="plants.html">Plants&#x25BC</a>
-					<div class="dropdown-content">
+				<button onclick="open_dropdown('myDropdown-3')" class="dropbtn" >Plants&#x25BC</button>
+					<div id="myDropdown-3" class="dropdown-content">
+						<a href="rose.html">How to make a Rose</a>
+						<a href="lily.html">How to make a Lily</a>
+						<a href="tulip.html"> How to make a Tulip</a>
+					</div>
+				</span><button onclick="open_dropdown('myDropdown')" class="dropbtn">Vehicles&#x25BC</button>
+			<div id="myDropdown" class="dropdown-content">
+				<a href="ship.html">How to make a Ship</a>
+				<a href="car.html">How to make a Car</a>
+				<a href="plane.html"> How to make a Plane</a>
+			</div>
+		</span>
+		<span class="dropdown">
+			<button onclick="open_dropdown('myDropdown-2')" class="dropbtn">Animals&#x25BC</button>
+				<div id="myDropdown-2" class="dropdown-content">
+					
+					<a href="crane.html">How to make a Crane</a>
+					<a href="frog.html">How to make a Frog</a>
+					<a href="butterfly.html"> How to make a Butterfly</a>
+				</div>
+			</span>
+			<span class="dropdown">
+				<button onclick="open_dropdown('myDropdown-3')" class="dropbtn" >Plants&#x25BC</button>
+					<div id="myDropdown-3" class="dropdown-content">
 						<a href="rose.html">How to make a Rose</a>
 						<a href="lily.html">How to make a Lily</a>
 						<a href="tulip.html"> How to make a Tulip</a>
 					</div>
 				</span>
+    <script src="js/script.js"></script>
         
 	</div>
 	</div>
@@ -75,19 +99,19 @@
             <div style=" background-color: #1b0d46;" class="rectangle"></div>
             <br> Explore other tutorials:</h1>
         <br>
-        <div>
-            <a href="vehicles.html">Vehicles</a><br>
-           
-            <a href="animals.html">Animals</a><br>
-         
-            <a href="plants.html">Plants</a><br>
+        <div id="botnav" style="text-align: center; position: relative; bottom: 10px;">
+            <a href="vehicles.html">Vehicles</a>
+            
+            <a href="animals.html">Animals</a>
+            
+            <a href="plants.html">Plants</a>
         </div>
         <br style="line-height: 50px;">
         <div style=" background-color: #1b0d46;" class="rectangle"></div>
         <br style="line-height: 50px;">
-        
-        <a style="margin-bottom: 35px;" href="#logo">Back to Top</a>
-        
+        <div style="text-align: center;margin-bottom: 35px; ">
+        <a href="#logo">Back to Top</a>
+        </div>
         
         
         </div>

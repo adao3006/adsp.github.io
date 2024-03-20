@@ -19,7 +19,7 @@
 		<div style="text-align: center;">
 		<a href="index.html">Home</a>
 		<span class="dropdown">
-       <button onclick="myFunction()" class="dropbtn">Vehicles&#x25BC</button>
+      <button onclick="open_dropdown('myDropdown')" class="dropbtn">Vehicles&#x25BC</button>
 			<div id="myDropdown" class="dropdown-content">
 				<a href="ship.html">How to make a Ship</a>
 				<a href="car.html">How to make a Car</a>
@@ -27,7 +27,7 @@
 			</div>
 		</span>
 		<span class="dropdown">
-			<button onclick="myFunction2()" class="dropbtn" href="animals.html">Animals&#x25BC</button>
+			<button onclick="open_dropdown('myDropdown-2')" class="dropbtn">Animals&#x25BC</button>
 				<div id="myDropdown-2" class="dropdown-content">
 					
 					<a href="crane.html">How to make a Crane</a>
@@ -36,7 +36,7 @@
 				</div>
 			</span>
 			<span class="dropdown">
-				<button onclick="myFunction3()" class="dropbtn" href="plants.html">Plants&#x25BC</button>
+				<button onclick="open_dropdown('myDropdown-3')" class="dropbtn" >Plants&#x25BC</button>
 					<div id="myDropdown-3" class="dropdown-content">
 						<a href="rose.html">How to make a Rose</a>
 						<a href="lily.html">How to make a Lily</a>
@@ -72,19 +72,19 @@
             <div style=" background-color: #1b0d46;" class="rectangle"></div>
             <br> Explore other tutorials:</h1>
         <br>
-        <div>
-            <a href="vehicles.html">Vehicles</a><br>
-           
-            <a href="animals.html">Animals</a><br>
-         
-            <a href="plants.html">Plants</a><br>
+        <div id="botnav" style="text-align: center; position: relative; bottom: 10px;">
+            <a href="vehicles.html">Vehicles</a>
+            
+            <a href="animals.html">Animals</a>
+            
+            <a href="plants.html">Plants</a>
         </div>
         <br style="line-height: 50px;">
         <div style=" background-color: #1b0d46;" class="rectangle"></div>
         <br style="line-height: 50px;">
-        
-        <a style="margin-bottom: 35px;" href="#logo">Back to Top</a>
-        
+        <div style="text-align: center;margin-bottom: 35px; ">
+        <a href="#logo">Back to Top</a>
+        </div>
         
     </div>
         
