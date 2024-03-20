@@ -336,7 +336,7 @@
            width: 37vw;
            height: 37vw;
            
-           border: 14vw solid;
+           border: 9vw solid;
            border-color: #17C4B8;
            
        }
@@ -344,7 +344,7 @@
            width: 52vw;
            height: 52vw;
            
-           border: 15vw solid;
+           border: 10vw solid;
            border-color: #17C4B8;
            
        }
@@ -352,7 +352,7 @@
            width: 27vw;
            height: 27vw;
            
-           border: 13vw solid;
+           border: 8vw solid;
            border-color: #17C4B8;
        
        }
@@ -469,6 +469,7 @@
         color:#1b0d46;
         line-height: 250%;
         font-size: 1rem;
+        font-weight: bold;
         text-align: center;
         display: block;
         font-family: 'Franklin Gothic Medium', "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
@@ -549,7 +550,8 @@
             height: 10vw;
             min-width: 160px;
             min-height: 55px;
-            font-size: 16px;
+            font-size: 12px;
+            font-weight: bold;
             position: relative;
             bottom:1vw;
             float: left;
