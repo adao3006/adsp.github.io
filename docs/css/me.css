@@ -356,7 +356,7 @@
            border-color: #17C4B8;
        
        }
-       .button-cluster a:hactive{
+       .button-cluster a:active{
            z-index: 999;
        }
    }
