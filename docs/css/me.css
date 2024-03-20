@@ -3,11 +3,11 @@
         }
 @font-face {
     font-family: 'Frankin Gothic Regular';
-    src: url(fonts/FRABK.ttf);
+    src: url(fonts/FRABK.ttf) format('truetype');
     font-family: 'Frankin Gothic Medium';
-    src: url(fonts/framd.ttf);
+    src: url(fonts/framd.ttf) format('truetype');
     font-family: 'Franklin Gothic Heavy';
-    src: url(fonts/FRAHV.ttf);
+    src: url(fonts/FRAHV.ttf) format('truetype');
 }
 
         body{
@@ -405,10 +405,7 @@
             transition: 0.5s;
             
         }
-        #rcorners:hover{
-            width: 55vw;
-            height: 13vw;
-        }
+        
         .instructions{
             position: relative;
             border-radius: 50%;
@@ -450,6 +447,10 @@
             width:  20vw;
             height: 20vw;
         }
+    }
+    #rcorners:hover{
+        width: 55vw;
+        height: 13vw;
     }
     @media only screen and (max-width:600px){
         #rcorners p {
