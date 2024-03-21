@@ -17,3 +17,4 @@ for (var i = 0, s = list.length; i< s; i ++) {
     } else { obj.className += " d-block"; }
   });
 }
+//https://stackoverflow.com/questions/48832394/multiple-dropdown-toggle-with-data-attribute

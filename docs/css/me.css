@@ -1,3 +1,4 @@
+/*https://www.w3schools.com/cssref/css3_pr_font-face_rule.php*/
 @font-face {
     font-family: 'Frankin Gothic Regular', "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
     src: url(fonts/FRABK.ttf) format('truetype');
@@ -7,7 +8,7 @@
     src: url(fonts/FRAHV.ttf) format('truetype');
     font-family: 'Franklin Gothic Demi', "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
     src: url(fonts/FRADM.ttf) format('truetype');
-}
+}/*https://www.w3schools.com/howto/howto_js_scroll_to_top.asp*/
        html{
             scroll-behavior: smooth;
         }
@@ -29,6 +30,7 @@
 			max-height: 80%;
             height: auto; /* Maintain aspect ratio */
         }
+        /*https://www.w3schools.com/howto/howto_css_media_query_breakpoints.asp*/
 @media only screen and (min-width: 600px){
         .topnav {
             background-color: #e4bf1e;
@@ -188,6 +190,7 @@
         div.container{
             text-align: center;
         }
+        /*https://www.w3schools.com/howto/howto_css_breadcrumbs.asp*/
         ul.breadcrumb {
             padding: 10px 16px;
             list-style: none;
@@ -216,13 +219,13 @@
           }
 
 @media only screen and (min-width:600px){
-		 /* Style for the circular button */
+		 /* https://www.w3schools.com/css/css_positioning.asp
+         https://www.w3schools.com/cssref/pr_pos_z-index.php*/
 		 .circle-button-1 {
 			position: relative;
             display: inline-block;
             width: 25vw;
             height: 25vw;
-            background-image: url(images/barbie.png);
 			background-repeat: no-repeat;
 			background-size: 100% 100%;
             border-radius: 50%;
@@ -251,7 +254,6 @@
             display: inline-block;
             width: 15vw;
             height: 15vw;
-            background-image: url(images/barbie.png);
 			background-repeat: no-repeat;
 			background-size: 100% 100%;
             border-radius: 50%;
@@ -268,6 +270,8 @@
             z-index: 0;
             
 		}
+        /*https://www.w3schools.com/css/css_link.asp
+        https://www.w3schools.com/css/css_combinators.asp*/
         .button-cluster a.circle-button-1:hover {
             width: 27vw;
             height: 27vw;
@@ -303,7 +307,6 @@
            display: inline-block;
            width: 35vw;
            height: 35vw;
-           background-image: url(images/barbie.png);
            background-repeat: no-repeat;
            background-size: 100% 100%;
            border-radius: 50%;
@@ -332,7 +335,6 @@
            display: inline-block;
            width: 25vw;
            height: 25vw;
-           background-image: url(images/barbie.png);
            background-repeat: no-repeat;
            background-size: 100% 100%;
            border-radius: 50%;
@@ -593,7 +595,7 @@
             transition: 0.5s;
             
         }
-        
+        /*https://www.w3schools.com/css/css3_borders.asp*/
         .instructions{
             position: relative;
             border-radius: 50%;
@@ -639,13 +641,14 @@
             bottom: 1.2vw;
         }
     }
-
+/*https://css-tricks.com/position-vertical-scrollbars-on-opposite-side-with-css/*/
         .p2{
             direction: ltr;
         }
         .flipped {
             direction: rtl;
         }
+        /*https://www.w3schools.com/howto/howto_css_custom_scrollbar.asp*/
         p::-webkit-scrollbar {
             width: 1em;
         }
