@@ -1,13 +1,13 @@
 /*https://www.w3schools.com/cssref/css3_pr_font-face_rule.php*/
 @font-face {
     font-family: 'Frankin Gothic Regular';
-    src: url(../fonts/FRABK.TTF) format('truetype');
+    src: url('../fonts/FRABK.TTF') format('truetype');
     font-family: 'Frankin Gothic Medium';
-    src: url(../fonts/framd.ttf) format('truetype');
+    src: url('../fonts/framd.ttf') format('truetype');
     font-family: 'Franklin Gothic Heavy';
-    src: url(../fonts/FRAHV.ttf) format('truetype');
+    src: url('../fonts/FRAHV.ttf') format('truetype');
     font-family: 'Franklin Gothic Demi';
-    src: url(../fonts/FRADM.ttf) format('truetype');
+    src: url('../fonts/FRADM.ttf') format('truetype');
 }/*https://www.w3schools.com/howto/howto_js_scroll_to_top.asp*/
        html{
             scroll-behavior: smooth;
@@ -75,7 +75,7 @@
         text-align: center;
         padding:  1rem 155px;
         text-decoration: none;
-        font-size: 1.5rem;
+        font-size: 1rem;
         font-family: 'Franklin Gothic Medium';
        overflow: hidden;
     }
@@ -87,7 +87,7 @@
         text-align: center;
         padding:  6px 40px;
         text-decoration: none;
-        font-size: 1.5rem;
+        font-size: 1rem;
         font-family: 'Franklin Gothic Medium';
        overflow: hidden;
     }
