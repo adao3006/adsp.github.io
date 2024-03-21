@@ -7,6 +7,27 @@
     <link rel="stylesheet" href="css/me.css">
 	<title>Vehicles</title>
 </head>
+<style>
+	@media only screen and (min-width:600px){
+		.button-cluster a.circle-button-3:hover {
+            width: 17vw;
+            height: 17vw;
+            
+            border: 3vw solid;
+            border-color: #c43117;
+        
+        }
+}
+@media only screen and (max-width:600px){
+	.button-cluster a.circle-button-3:active {
+           width: 27vw;
+           height: 27vw;
+           
+           border: 4vw solid;
+           border-color:#c43117;
+}}
+
+</style>
 <body>
 	<br>
 	<div class="logo-container">
@@ -18,7 +39,7 @@
 		<div style="text-align: center;">
 		<a href="index.html">Home</a>
 		<span class="dropdown">
-      <button onclick="open_dropdown('myDropdown')" class="dropbtn">Vehicles&#x25BC</button>
+     <button data-toggle="dropdown" data-target="#myDropdown"class="dropbtn">Vehicles&#x25BC</button>
 			<div id="myDropdown" class="dropdown-content">
 				<a href="ship.html">How to make a Ship</a>
 				<a href="car.html">How to make a Car</a>
@@ -26,7 +47,7 @@
 			</div>
 		</span>
 		<span class="dropdown">
-			<button onclick="open_dropdown('myDropdown-2')" class="dropbtn">Animals&#x25BC</button>
+			<button data-toggle="dropdown" data-target="#myDropdown-2" class="dropbtn">Animals&#x25BC</button>
 				<div id="myDropdown-2" class="dropdown-content">
 					
 					<a href="crane.html">How to make a Crane</a>
@@ -35,7 +56,7 @@
 				</div>
 			</span>
 			<span class="dropdown">
-				<button onclick="open_dropdown('myDropdown-3')" class="dropbtn" >Plants&#x25BC</button>
+				<button data-toggle="dropdown" data-target="#myDropdown-3" class="dropbtn">Plants&#x25BC</button>
 					<div id="myDropdown-3" class="dropdown-content">
 						<a href="rose.html">How to make a Rose</a>
 						<a href="lily.html">How to make a Lily</a>
@@ -66,7 +87,7 @@
 		<div>
 			<!-- Circular button -->
 			<a title="Ship" style="background-image: url(images/ship/btn.png);" href="ship.html" class="circle-button-2"></a>
-			<a title="Car" href="car.html"style="background-image: url(images/barbie.png);" class="circle-button-3"></a>
+			<a title="Car" href="car.html"style="background-image: url(images/car.png);" class="circle-button-3"></a>
 		</div>
 	</div>
 	<div class="bottomnav">

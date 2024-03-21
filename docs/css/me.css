@@ -71,7 +71,7 @@
         float: none;
         color:#1b0d46;
         text-align: center;
-        padding:  6px 66px;
+        padding:  0.8rem 10rem;
         text-decoration: none;
         font-weight: bold;
         font-size: 1.5rem;
@@ -119,15 +119,15 @@
         }
 @media only screen and (max-width: 600px){
     .dropdown .dropbtn {
-        font-size: 16px;  
+        font-size: 1.5rem;
         border: none;
         outline: none;
         color: #1b0d46;
         position: relative;
-        padding: 6px 66px;
+        padding: 0.8rem 9.25rem;
         background-color: inherit;
         font-family: 'Franklin Gothic Medium', "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
-        
+        justify-content: center;
       }
     }
           .topnav button, .dropdown:hover .dropbtn {
@@ -136,7 +136,7 @@
         
           
           
-      
+          @media only screen and (min-width: 600px){   
           .dropdown-content {
             background-color: #e4bf1e;
             overflow: hidden;
@@ -148,6 +148,22 @@
             border: 1px solid;
             border-color: #1b0d46;
             
+          }
+        }
+        @media only screen and (max-width: 600px){   
+            .dropdown-content {
+              background-color: #e4bf1e;
+              overflow: hidden;
+              line-height: 1.5rem;
+              display: none;
+              position: absolute;
+              z-index: 1;
+              width: 100%;
+              border: 1px solid;
+              border-color: #1b0d46;
+              margin-left: 0;
+              margin-right: 0;
+            }
           }
       
           .dropdown-content a {
@@ -164,11 +180,9 @@
             background-color: #ddd;
           }
       
-          .show {
+          .d-block {
             display: block;
-            margin: auto;
-                        
-          }
+            }
        
           
         div.container{
@@ -369,6 +383,9 @@
             font-size: 50px;
             text-align: center;
             line-height: 50px;
+            margin-left: 20%;
+            margin-right: 20%;
+            margin-top:0;
         }
     }
     @media only screen and (max-width: 600px){
@@ -377,6 +394,9 @@
             font-size: 36px;
             text-align: center;
             line-height: 36px;
+            margin-left: 20%;
+            margin-right: 20%;
+            margin-top:0;
         }
     }
         .rectangle{
@@ -585,7 +605,7 @@
             display: block;
             float: right;
             left: 2.5vw;
-            bottom: 3.4vw;
+            bottom: 1.2vw;
             transition: 0.5s;
         }
         #rcorners p {
@@ -595,10 +615,10 @@
             height: 10vw;
             min-width: 185px;
             min-height: 75px;
-            font-size: 0.75rem;
+            font-size: 0.85rem;
             font-weight: bold;
             position: relative;
-            bottom:1vw;
+            top: 1.2vw;
             float: left;
             overflow-y: auto;
             font-family: 'Franklin Gothic Medium', "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
@@ -616,7 +636,7 @@
             display: block;
             float: left;
             right: 2.5vw;
-            bottom: 3.4vw;
+            bottom: 1.2vw;
         }
     }
         
