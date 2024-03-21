@@ -611,7 +611,7 @@
         #rcorners p {
             display: block;
             margin-top: 1.1%;
-            width: 35vw;
+            width: 33vw;
             height: 10vw;
             min-width: 185px;
             min-height: 75px;
@@ -639,7 +639,7 @@
             bottom: 1.2vw;
         }
     }
-        
+
         .p2{
             direction: ltr;
         }
