@@ -1,12 +1,12 @@
 /*https://www.w3schools.com/cssref/css3_pr_font-face_rule.php*/
 @font-face {
-    font-family: 'Frankin Gothic Regular', "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+    font-family: 'Frankin Gothic Regular';
     src: url(../fonts/FRABK.TTF) format('truetype');
-    font-family: 'Frankin Gothic Medium', "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+    font-family: 'Frankin Gothic Medium';
     src: url(../fonts/framd.ttf) format('truetype');
-    font-family: 'Franklin Gothic Heavy', "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+    font-family: 'Franklin Gothic Heavy';
     src: url(../fonts/FRAHV.ttf) format('truetype');
-    font-family: 'Franklin Gothic Demi', "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+    font-family: 'Franklin Gothic Demi';
     src: url(../fonts/FRADM.ttf) format('truetype');
 }/*https://www.w3schools.com/howto/howto_js_scroll_to_top.asp*/
        html{
@@ -47,7 +47,7 @@
             text-decoration: none;
             font-size: 30px;
            
-			font-family: 'Franklin Gothic Medium', "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+			font-family: 'Franklin Gothic Medium';
            overflow: hidden;
         }
     
@@ -59,7 +59,7 @@
             padding:  20px 80px;
             text-decoration: none;
             font-size: 30px;
-			font-family: 'Franklin Gothic Medium', "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+			font-family: 'Franklin Gothic Medium';
            overflow: hidden;
         }
     }
@@ -76,7 +76,7 @@
         padding:  1rem 155px;
         text-decoration: none;
         font-size: 1.5rem;
-        font-family: 'Franklin Gothic Medium', "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+        font-family: 'Franklin Gothic Medium';
        overflow: hidden;
     }
 
@@ -88,7 +88,7 @@
         padding:  6px 40px;
         text-decoration: none;
         font-size: 1.5rem;
-        font-family: 'Franklin Gothic Medium', "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+        font-family: 'Franklin Gothic Medium';
        overflow: hidden;
     }
 }
@@ -112,7 +112,7 @@
             position: relative;
             padding: 20px 80px;
             background-color: inherit;
-            font-family: 'Franklin Gothic Medium', "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+            font-family: 'Franklin Gothic Medium';
             
           }
     
@@ -126,7 +126,7 @@
         position: relative;
         padding: 0.8rem 9.25rem;
         background-color: inherit;
-        font-family: 'Franklin Gothic Medium', "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+        font-family: 'Franklin Gothic Medium';
         justify-content: center;
       }
     }
@@ -193,7 +193,7 @@
             padding: 10px 16px;
             list-style: none;
             margin: auto;
-            font-family: 'Franklin Gothic Medium', "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+            font-family: 'Franklin Gothic Medium';
           }
           ul.breadcrumb li {
             display: inline;
@@ -379,7 +379,7 @@
    }
 @media only screen and (min-width: 600px){
         h1 {
-            font-family: 'Franklin Gothic Heavy', "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+            font-family: 'Franklin Gothic Heavy';
             font-size: 50px;
             text-align: center;
             line-height: 50px;
@@ -390,7 +390,7 @@
     }
     @media only screen and (max-width: 600px){
         h1 {
-            font-family: 'Franklin Gothic Heavy', "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+            font-family: 'Franklin Gothic Heavy';
             font-size: 36px;
             text-align: center;
             line-height: 36px;
@@ -416,7 +416,7 @@
             resize: none;
             background-color: transparent;
             border: transparent;
-            font-family: 'Franklin Gothic Regular', "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+            font-family: 'Franklin Gothic Regular';
             font-size: 20px;
             overflow: hidden;
             line-height: 30px;
@@ -432,7 +432,7 @@
             resize: none;
             background-color: transparent;
             border: transparent;
-            font-family: 'Franklin Gothic Regular', "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+            font-family: 'Franklin Gothic Regular';
             font-size: 1rem;
             overflow: hidden;
             line-height: 1.5rem;
@@ -468,7 +468,7 @@
             font-size: 25px;
             text-align: center;
             display: inline;
-            font-family: 'Franklin Gothic Medium', "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+            font-family: 'Franklin Gothic Medium';
             text-decoration: solid underline;
             margin-left: 60px;
             margin-right: 60px;
@@ -494,7 +494,7 @@
         font-size: 1rem;
         text-align: center;
         display: block;
-        font-family: 'Franklin Gothic Medium', "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+        font-family: 'Franklin Gothic Medium';
         text-decoration: solid underline;
     }
 }
@@ -545,7 +545,7 @@
             bottom:1vw;
             float: left;
             overflow-y: auto;
-            font-family: 'Franklin Gothic Medium', "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+            font-family: 'Franklin Gothic Medium';
             transition: 0.5s;
             
         }
@@ -620,7 +620,7 @@
             top: 1.2vw;
             float: left;
             overflow-y: auto;
-            font-family: 'Franklin Gothic Medium', "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+            font-family: 'Franklin Gothic Medium';
             transition: 0.5s;
             
         }
