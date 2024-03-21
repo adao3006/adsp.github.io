@@ -490,7 +490,9 @@ font-weight: 500;
         color:#1b0d46;
         display: block;
         font-size: 21px;
-        line-height: 100%;
+        line-height: 150%;
+        margin-top: 3vw;
+        
     }
     .bottomnav a{
         color:#1b0d46;
